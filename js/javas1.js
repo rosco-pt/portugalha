@@ -64,7 +64,6 @@ let images = [
     }
 
     function nextImg(){
-        /*
         let imageIndex;
         for(let i = 0; i < images.length; i++){
             imageIndex = Math.trunc(Math.random() * images.length);
@@ -76,8 +75,8 @@ let images = [
         x.setAttribute("width",images[imageIndex].width);
         x.setAttribute("alt", images[imageIndex].alt);
         document.body.appendChild(x);
-        */
 
+        /*
        for(let i = 0; i < images.length; i++){
             imageIndex = Math.trunc(Math.random() * images.length);
             console.log(imageIndex);
@@ -88,6 +87,7 @@ let images = [
        x.setAttribute("height", images[imageIndex].height);
        x.setAttribute("alt",  images[imageIndex].alt);
        document.body.appendChild(x);
+       */
     }
 
     function restart(){
